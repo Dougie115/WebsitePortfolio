@@ -6,61 +6,84 @@
     <meta name = "description" content = "A web page/portfolio for my work and skills " />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="author" content = "Douglas Lopez" />
-    <title>DL Website Portfolio</title>
+   
+
+    <!--CSS Styles-->
+    <link href = "CSS\styles.css" type="text/css" rel="stylesheet"/>
+
+    <!--Favicon-->
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="favicon_io/site.webmanifest">
+
+    <title>Website Portfolio</title>
 </head>
+
 <body>
-
     <!--Start of Header-->
-    <div id = "header"> 
-    <h1 id ="top">Douglas Lopez</h1>
-    <ul>
-    <li><a href = "#about_me"> About Me</a></li>
-    <li><a href = "#known_languages">Skills</li>
-    <li><a href = "#past_projects">Past Projects</a></li>
-    <li><a href = "#contact_me"> Contact Me</a></li>
-    </ul>
-    </div><!--End of Header-->
+    <header> 
+    <nav>
+        <h1 id ="top">Douglas Lopez</h1>
+        <ul>
+            <li><a href="home" class = "current">Home</a></li>
+            <li><a href = "#about_me"> About Me</a></li>
+            <li><a href = "#known_languages">Skills</li>
+            <li><a href = "#past_projects">Past Projects</a></li>
+            <li><a href = "#contact_me"> Contact Me</a></li>
+        </ul>
+    </nav>
+    </header>
+    <!--End of Header-->
 
+   
     <!--Start of About Me-->
+    <section>
     <h2 id = "about_me">About Me </h2>
     <p>
         Reminder images should be 72 dpi but not really cuz thats old hardware limitations now it doesnt matter but to stick to the basics just do it. 
     </p>
+    </section>
     <!--End of About Me-->
 
     <!--Start of Known Languages -->
-    <div id = "languages">
-        <h2 id = "known_languages">Skills</h2>
-        <ul>
+    <section class = "Languages">
+    <h2 class = "language-header">Known Languages</h2>
+    
+        <ul id = "languages">
             <li>Python </li>
             <li>C++</li>
             <li>HTML</li>
             <li>CSS</li>
         </ul>
-    </div>
+    </section>
     <!--End of Known Languages-->
 
     <!--Start of Projects Section-->
+    <div id = "project links">
     <h2 id = "past_projects">Past Projects</h2>
     <p>
         <ul>
             <li>Project 1</li>
-            <img src = "images/Waves.jpg" alt = "An image of waves on a beach with mountains 
-            and fog in the background." title="A cold cloudy day at a beach with mountain background."  
-            width ="600" height = "450" />
+            <img src = "images/ERD.png" alt = "An image of a ERD Diagram from Project 1."
+            title= "Entity - Relationship Diagram."
+            width ="600" height = "300" />
             <li> Project 2 </li>   
-            <img src = "images/Temple.jpg" alt = "An image of waves on a beach with mountains 
-            and fog in the background." title="A cold cloudy day at a beach with mountain background."  
-            width ="600" height = "450" />
+            <img src = "images/InGame.png" alt = "An image of a spaceship with Earth and 
+            enemies in the background." title="Spaceship flying towards earth."  
+            width ="600" height = "300" />
             <li> Project 3 </li>
             <img src = "images/Scene.jpg" alt = "An image of waves on a beach with mountains 
             and fog in the background." title="A cold cloudy day at a beach with mountain background."  
             width ="600" height = "450" />
         </ul>
     </p>
+    </div>
     <!--End of Projects Section-->
-
+   
+   
     <!--Start of Helpful Links -->
+    <div id = "links">
     <fieldset>
     <legend><h3 id = "contact_me">Contact Me:</h2></legend>
         <ul>
@@ -68,6 +91,7 @@
             <li><a href = "https://github.com/Dougie115" target ="_blank"> github</a></li>
         </ul>
     </fieldset>
+    </div>
     <!--End of Helpful Links-->
 
     <p> <a href = "#top">Top </a></p>
