@@ -9,7 +9,7 @@
    
 
     <!--CSS Styles-->
-    <link href = "CSS\styles.css" type="text/css" rel="stylesheet"/>
+    <link href = "CSS/styles.css" type="text/css" rel="stylesheet"/>
 
     <!--Favicon-->
     <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
@@ -23,75 +23,97 @@
 <body>
     <!--Start of Header-->
     <header> 
-    <nav>
-        <h1 id ="top">Douglas Lopez</h1>
-        <ul>
-            <li><a href="home" class = "current">Home</a></li>
-            <li><a href = "#about_me"> About Me</a></li>
-            <li><a href = "#known_languages">Skills</li>
-            <li><a href = "#past_projects">Past Projects</a></li>
-            <li><a href = "#contact_me"> Contact Me</a></li>
-        </ul>
-    </nav>
+        <nav>
+            <h1 id ="top">Douglas Lopez</h1>
+            <ul>
+                <li><a href="home" class = "current">Home</a></li>
+                <li><a href = "#about_me"> About Me</a></li>
+                <li><a href = "#known_languages">Skills</li>
+                <li><a href = "#past_projects">Past Projects</a></li>
+                <li><a href = "#contact_me"> Contact Me</a></li>
+            </ul>
+        </nav>
     </header>
     <!--End of Header-->
 
-   
-    <!--Start of About Me-->
-    <section>
-    <h2 id = "about_me">About Me </h2>
-    <p>
-        Reminder images should be 72 dpi but not really cuz thats old hardware limitations now it doesnt matter but to stick to the basics just do it. 
-    </p>
-    </section>
-    <!--End of About Me-->
+    <main>
+        <!--Start of About Me-->
+        <section>
+            <h2 id = "about_me">About Me </h2>
+            <p>
+                Reminder images should be 72 dpi but not really cuz thats old hardware limitations now it doesnt matter but to stick to the basics just do it. 
+            </p>
+        </section>
+        <!--End of About Me-->
 
-    <!--Start of Known Languages -->
-    <section class = "Languages">
-    <h2 class = "language-header">Known Languages</h2>
-    
-        <ul id = "languages">
-            <li>Python </li>
-            <li>C++</li>
-            <li>HTML</li>
-            <li>CSS</li>
-        </ul>
-    </section>
-    <!--End of Known Languages-->
+        <!--Start of Known Languages -->
+        <section class = "Languages">
+            <h2 class = "language-header">Known Languages</h2>
+            <li class="language-python">
+                <div class="logo-container">
+                  <img src="/WebsitePortfolio/Images/Logo/Python.png" alt="Python Logo">
+                  <span>Python</span>
+                </div>
+              </li>
+              <li class="language-cpp">
+                <div class="logo-container">
+                  <img src="/WebsitePortfolio/Images/Logo/C++.png" alt="C++ Logo">
+                  <span>C++</span>
+                </div>
+              </li>
+              <li class="language-html">
+                <div class="logo-container">
+                  <img src="/WebsitePortfolio/Images/Logo/HTML5.png" alt="HTML Logo">
+                  <span>HTML</span>
+                </div>
+              </li>
+              <li class="language-css">
+                <div class="logo-container">
+                  <img src="/WebsitePortfolio/Images/Logo/CSS3.png" alt="CSS Logo">
+                  <span>CSS</span>
+                </div>
+              </li>
+            </ul>
+        </section>
+        <!--End of Known Languages-->
 
-    <!--Start of Projects Section-->
-    <div id = "project links">
-    <h2 id = "past_projects">Past Projects</h2>
-    <p>
-        <ul>
-            <li>Project 1</li>
-            <img src = "images/ERD.png" alt = "An image of a ERD Diagram from Project 1."
-            title= "Entity - Relationship Diagram."
-            width ="600" height = "300" />
-            <li> Project 2 </li>   
-            <img src = "images/InGame.png" alt = "An image of a spaceship with Earth and 
-            enemies in the background." title="Spaceship flying towards earth."  
-            width ="600" height = "300" />
-            <li> Project 3 </li>
-            <img src = "images/Scene.jpg" alt = "An image of waves on a beach with mountains 
-            and fog in the background." title="A cold cloudy day at a beach with mountain background."  
-            width ="600" height = "450" />
-        </ul>
-    </p>
-    </div>
-    <!--End of Projects Section-->
-   
+        <!--Start of Projects Section-->
+        <section id = "project_links">
+            <h2 id = "past_projects">Past Projects</h2>
+            <ul>
+                <li>
+                    Project 1
+                    <img src = "images/ERD.png" alt = "An image of a ERD Diagram from Project 1."
+                        title= "Entity - Relationship Diagram."
+                        width ="600" height = "300" />
+                </li>
+                <li> 
+                    Project 2   
+                    <img src = "images/InGame.png" alt = "An image of a spaceship with Earth and 
+                    enemies in the background." title="Spaceship flying towards earth."  
+                    width ="600" height = "300" />
+                </li> 
+                <li> 
+                    Project 3 
+                    <img src = "images/Scene.jpg" alt = "An image of waves on a beach with mountains 
+                    and fog in the background." title="A cold cloudy day at a beach with mountain background."  
+                    width ="600" height = "450" />
+                </li>    
+            </ul>
+        </section>
+        <!--End of Projects Section-->
+    </main>
    
     <!--Start of Helpful Links -->
-    <div id = "links">
-    <fieldset>
-    <legend><h3 id = "contact_me">Contact Me:</h2></legend>
-        <ul>
-            <li><a href = "mailto:lopezdouglas115@gmail.com">Email</a></li>
-            <li><a href = "https://github.com/Dougie115" target ="_blank"> github</a></li>
-        </ul>
-    </fieldset>
-    </div>
+    <section id = "links">
+         <fieldset>
+            <legend><h3 id = "contact_me">Contact Me:</h3></legend>
+            <ul>
+                <li><a href = "mailto:lopezdouglas115@gmail.com">Email</a></li>
+                <li><a href = "https://github.com/Dougie115" target ="_blank"> github</a></li>
+            </ul>
+        </fieldset>
+    </section>
     <!--End of Helpful Links-->
 
     <p> <a href = "#top">Top </a></p>
