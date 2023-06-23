@@ -23,12 +23,12 @@
 <body>
     <!--Start of Header-->
     <header> 
-        <nav>
+        <nav class = "navbar">
             <h1 id ="top">Douglas Lopez</h1>
-            <ul>
-                <li><a href="home" class = "current">Home</a></li>
+            <ul class = "navbar-links">
+                <li><a href= "home" class = "current">Home</a></li>
                 <li><a href = "#about_me"> About Me</a></li>
-                <li><a href = "#known_languages">Skills</li>
+                <li><a href = "#known_languages">Skills</a></li>
                 <li><a href = "#past_projects">Past Projects</a></li>
                 <li><a href = "#contact_me"> Contact Me</a></li>
             </ul>
@@ -47,34 +47,29 @@
         <!--End of About Me-->
 
         <!--Start of Known Languages -->
-        <section class = "Languages">
-            <h2 class = "language-header">Known Languages</h2>
-            <li class="language-python">
-                <div class="logo-container">
-                  <img src="/WebsitePortfolio/Images/Logo/Python.png" alt="Python Logo">
-                  <span>Python</span>
-                </div>
-              </li>
-              <li class="language-cpp">
-                <div class="logo-container">
-                  <img src="/WebsitePortfolio/Images/Logo/C++.png" alt="C++ Logo">
-                  <span>C++</span>
-                </div>
-              </li>
-              <li class="language-html">
-                <div class="logo-container">
-                  <img src="/WebsitePortfolio/Images/Logo/HTML5.png" alt="HTML Logo">
-                  <span>HTML</span>
-                </div>
-              </li>
-              <li class="language-css">
-                <div class="logo-container">
-                  <img src="/WebsitePortfolio/Images/Logo/CSS3.png" alt="CSS Logo">
-                  <span>CSS</span>
-                </div>
-              </li>
-            </ul>
+        <section class="Languages">
+            <h2 id = "known_languages" class="language-header">Known Languages</h2>
+            <div class = "logo-container-row">
+            <div class="logo-container">
+                <div class="language-logo language-python"></div>
+                <p class = "logo-text">Python</p>
+            </div>
+            <div class="logo-container">
+                <div class="language-logo language-cpp"></div>
+                <p class = "logo-text">C++</p>
+            </div>
+            <div class="logo-container">
+                <div class="language-logo language-html"></div>
+                <p class = "logo-text">HTML</p>
+            </div>
+            <div class="logo-container">
+                <div class="language-logo language-css"></div>
+                <p class = "logo-text">CSS</p>
+            </div>
+            </div>
         </section>
+<!--End of Known Languages-->
+
         <!--End of Known Languages-->
 
         <!--Start of Projects Section-->
