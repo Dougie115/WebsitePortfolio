@@ -52,13 +52,6 @@ header {
     color: #306ea1;
   }
   
-  .content {
-    padding-top: 6rem; /* Add desired padding to push content below navbar */
-  }
-
-
-
-
 .Languages {
     display: flex;
     flex-direction: column;
