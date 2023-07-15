@@ -11,6 +11,10 @@
     <!--CSS Styles-->
     <link href = "CSS/styles.css" type="text/css" rel="stylesheet"/>
 
+    <!--Font-->
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+    
     <!--Favicon-->
     <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
@@ -38,13 +42,17 @@
 
     <main>
         <!--Start of About Me-->
-        <section>
-            <h2 id = "about_me">About Me </h2>
-            <p>
-                My name is Douglas Lopez, born in 1998 in San Salvador, I completed a Bachelor of Science in Computer Science at the California
-                State Universiry Dominguez Hills. I have a passion for videogames, technology and art. My goal in  
-
-            </p>
+        <section id = "about-me" class = "about-section">
+            <div class = "about-content">
+                <h2 id = "about-me">About Me</h2>
+                    <p>
+                    My name is Douglas Lopez, born in 1998 in San Salvador, I completed a Bachelor of Science in Computer Science at the California
+                    State Universiry Dominguez Hills. I have a passion for videogames, technology and art. My goal in  
+                    </p>
+            </div>
+            <div class = "profile-picture">
+                <img src ="Images/GradPic.jpg" alt = "Profile Picture">
+            </div>
         </section>
         <!--End of About Me-->
 
@@ -85,10 +93,12 @@
                         width ="300" height = "150" />
                 </div>
                 <div class = "project-container">
-                    <p class = "project-text">Project 2</p>   
-                    <img src = "images/InGame.png" alt = "An image of a spaceship with Earth and enemies in the background." 
-                        title="Spaceship flying towards earth."  
+                    <p class = "project-text">Project 2</p>
+                    <a href="https://youtu.be/Hm2M-ObQt9c" target = "_blank"> 
+                    <img src = "images/InGame.png" alt = "When clicked takes you to my videogame presentation." 
+                        title="Spaceships! Videogame presentation."  
                         width ="300" height = "150" />
+                    </a>
                 </div>
                 <div class = "project-container">
                     <p class = "project-text">Project 3</p>  
@@ -108,6 +118,7 @@
             <ul>
                 <li><a href = "mailto:lopezdouglas115@gmail.com">Email</a></li>
                 <li><a href = "https://github.com/Dougie115" target ="_blank"> github</a></li>
+                <li><a href="https://drive.google.com/file/d/18wkZrTJaYLglbk0WhKIpypHFrCnSRXjZ/view?usp=drive_link" download>Download Resume</a></li>
             </ul>
         </fieldset>
     </section>
