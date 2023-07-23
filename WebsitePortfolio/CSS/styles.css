@@ -201,3 +201,7 @@ header {
   text-align: start;
   line-height: 1.5;
 }
+
+.important_links {
+  line-height:2; 
+}
