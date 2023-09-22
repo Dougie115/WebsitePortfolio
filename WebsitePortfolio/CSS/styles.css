@@ -31,6 +31,44 @@ header {
     top: 0;
     background-color: #000000;
     box-shadow: 0 2px 4px #FF00FF;
+    padding: 20px 0;
+  }
+
+  @media (max-width: 768px){
+
+    .navbar{
+      flex-direction:column;
+    }
+
+    .navbar-links li{
+      margin-left: 0;
+    }
+
+    .about-section{
+      flex-direction: column;
+      text-align: center;
+      padding:20px;
+    }
+
+    .profile-picture {
+      width:100px;
+      height:150px;
+    }
+
+    .Languages,
+    .project_links{
+      margin-bottom:20px;
+    }
+
+    .logo-container-row{
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .project-container-row{
+      flex-direction: column;
+    }
   }
 
   
@@ -206,6 +244,45 @@ header {
   line-height: 1.5;
   padding: 10px;
 }
+
+.fixed-sidebar{
+  position: fixed;
+  top: 50%;
+  right: 0;
+  height:20px;
+  width: 40px; /*Adjust the width of the sidebar as needed*/
+  background-color: transparent; /*backcround color of the sidebard*/
+  padding: 20px;
+  text-align: center;
+  border-radius: 50%;
+  transform: translateY(-50%);
+}
+
+.fixed-sidebar .social-icons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fixed-sidebar .social-icons a{
+  display: inline-block;
+  margin: 10px 0;
+  border-radius: 50%;
+  background-color: rgba(67, 73, 82, 0.8); /*backfround color of the social media bubbles*/
+  padding: 10px;
+  transition: background-color 0.3s;
+}
+
+.fixed-sidebar .social-icons a:hover {
+  background-color: #FFD700; /*Background color on hover*/
+}
+
+.fixed-sidebar .social-icons img {
+  width: 35px; /* Adjust the width of the social media icons as needed */
+  height: 29px; /* Adjust the height of the social media icons as needed */
+}
+
+
 
 .important_links {
   line-height:2; 
