@@ -129,6 +129,17 @@ header {
   height:100%;
   object-fit: cover;
 }
+.container {
+  max-width:800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: transparent;
+  border: 1px solid #ccc;
+  box-shadow: 0 6px 10px #FF00FF;
+  order:2;
+  border-radius: 3%;
+}
+
 
 .Languages {
     display: flex;
