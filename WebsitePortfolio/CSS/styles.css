@@ -130,12 +130,6 @@ header {
   object-fit: cover;
 }
 
-@media (max-width: 768px) {
-  .about-section{
-    flex-direction: column;
-  }
-}
-  
 .Languages {
     display: flex;
     flex-direction: column;
